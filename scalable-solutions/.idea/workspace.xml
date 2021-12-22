@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ef29b3f-ed3e-4dce-a45e-dccb85eac535" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="22QbEZpPRmY4Lo7zrrq1iKcDoKx" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.21954022" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean test -Dtest=OrderBookTest" />
+      <command value="mvn clean test" />
+      <command value="mvn allure:serve" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.CleanOrdersTest.checkGetOrderAfterClean">
+    <configuration name="CleanOrdersTest.checkGetOrderAfterClean" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="scalable-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CleanOrdersTest" />
+      <option name="METHOD_NAME" value="checkGetOrderAfterClean" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTest.checkCreateOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="scalable-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CreateTest" />
+      <option name="METHOD_NAME" value="checkCreateOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateTest.checkCreateOrderWithoutId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="scalable-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.CreateTest" />
+      <option name="METHOD_NAME" value="checkCreateOrderWithoutId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTest.check" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="scalable-solutions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.ExampleTest" />
+      <option name="METHOD_NAME" value="check" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.CleanOrdersTest.checkGetOrderAfterClean" />
+        <item itemvalue="TestNG.ExampleTest.check" />
+        <item itemvalue="TestNG.CreateTest.checkCreateOrderWithoutId" />
+        <item itemvalue="TestNG.CreateTest.checkCreateOrder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ef29b3f-ed3e-4dce-a45e-dccb85eac535" name="Default Changelist" comment="" />
+      <created>1639772646759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639772646759</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1640031862578">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1640031862578" />
+    <state x="437" y="112" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1640114190045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="437" y="112" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1366.728@0.0.1366.728" timestamp="1640114190045" />
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1640188079525">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1640188079525" />
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1640114237256">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1640114237256" />
+    <state width="1322" height="263" key="GridCell.Tab.0.bottom" timestamp="1640205837494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="263" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1640205837494" />
+    <state width="1322" height="263" key="GridCell.Tab.0.center" timestamp="1640205837494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="263" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1640205837494" />
+    <state width="1322" height="263" key="GridCell.Tab.0.left" timestamp="1640205837494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="263" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1640205837494" />
+    <state width="1322" height="263" key="GridCell.Tab.0.right" timestamp="1640205837494">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="263" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1640205837494" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1639865340146">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1639865340146" />
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup" timestamp="1640205740121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="157" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1640205740121" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1640029800716">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1640029800716" />
+  </component>
+</project>

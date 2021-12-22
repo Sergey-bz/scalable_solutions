@@ -1,0 +1,303 @@
+{
+  "testData4checkCreateOrder": [
+    {
+      "order": {
+        "id": "1",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9999",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9998",
+        "price": "9999",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9997",
+        "price": "1",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9996",
+        "price": "500.5",
+        "quantity": "1",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9995",
+        "price": "500.5",
+        "quantity": "9999",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9994",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Sell"
+      }
+    },
+    {
+      "order": {
+        "id": "518",
+        "price": "9999.99",
+        "quantity": "2",
+        "side": "Sell"
+      }
+    },
+    {
+      "order": {
+        "id": "519",
+        "price": "0.01",
+        "quantity": "2",
+        "side": "Sell"
+      }
+    }
+  ],
+  "testData4checkCreateOrderWithoutOptionalParams": [
+    {
+      "order": {
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "2",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    }
+  ],
+  "testData4checkCreateOrderWithoutRequiredParams": [
+    {
+      "order": {
+        "id": "3",
+        "price": "500.5",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "4",
+        "price": "500.5",
+        "quantity": "2"
+      }
+    }
+  ],
+  "testData4checkCreateOrderWithIncorrectParams": [
+    {
+      "order": {
+        "id": "0",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "-1",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "10000",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "10001",
+        "price": "500.5",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "5",
+        "price": "0",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "6",
+        "price": "-1",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "7",
+        "price": "-0.01",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "8",
+        "price": "10000",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "9",
+        "price": "10001",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "10",
+        "price": "10000.01",
+        "quantity": "2",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "11",
+        "price": "500",
+        "quantity": "0",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "12",
+        "price": "500",
+        "quantity": "-1",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "13",
+        "price": "500",
+        "quantity": "10000",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "14",
+        "price": "500",
+        "quantity": "10001",
+        "side": "Buy"
+      }
+    },
+    {
+      "order": {
+        "id": "15",
+        "price": "500",
+        "quantity": "10",
+        "side": "Trade"
+      }
+    },
+    {
+      "order": {
+        "id": "436",
+        "price": "10000.01",
+        "quantity": "10",
+        "side": "Sell"
+      }
+    },
+    {
+      "order": {
+        "id": "437",
+        "price": "-0.01",
+        "quantity": "10",
+        "side": "Sell"
+      }
+    }
+  ],
+  "testData4checkGetOrderById": [
+    {
+      "order": {
+        "id": "16",
+        "price": "500",
+        "quantity": "10",
+        "side": "Sell"
+      }
+    }
+  ],
+  "testData4checkGetOrderWithIncorrectId": [
+    {
+      "order": {
+        "id": "17",
+        "price": "500",
+        "quantity": "10",
+        "side": "Buy"
+      }
+    }
+  ],
+  "testData4checkGetOrderNotExist": [
+    {
+      "order": {
+        "id": "18",
+        "price": "500",
+        "quantity": "10",
+        "side": "Buy"
+      }
+    }
+  ],
+  "testData4checkCleanOrders": [
+    {
+      "order": {
+        "id": "19"
+      }
+    }
+  ],
+  "testData4checkDeleteOrderById": [
+    {
+      "order": {
+        "id": "20",
+        "price": "500",
+        "quantity": "10",
+        "side": "Buy"
+      }
+    }
+  ],
+  "testData4checkDeleteOrderWithoutId": [
+    {
+
+    }
+  ],
+  "testData4checkGetSnapshotOfMarketData": [
+    {
+
+    }
+  ]
+}
